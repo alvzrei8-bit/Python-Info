@@ -1,0 +1,159 @@
+Python version: 3.14.6
+
+[all opcodes — 159 total]
+
+  CACHE                               0
+  BINARY_SLICE                        1
+  BUILD_TEMPLATE                      2
+  CALL_FUNCTION_EX                    4
+  CHECK_EG_MATCH                      5
+  CHECK_EXC_MATCH                     6
+  CLEANUP_THROW                       7
+  DELETE_SUBSCR                       8
+  END_FOR                             9
+  END_SEND                            10
+  EXIT_INIT_CHECK                     11
+  FORMAT_SIMPLE                       12
+  FORMAT_WITH_SPEC                    13
+  GET_AITER                           14
+  GET_ANEXT                           15
+  GET_ITER                            16
+  RESERVED                            17
+  GET_LEN                             18
+  GET_YIELD_FROM_ITER                 19
+  INTERPRETER_EXIT                    20
+  LOAD_BUILD_CLASS                    21
+  LOAD_LOCALS                         22
+  MAKE_FUNCTION                       23
+  MATCH_KEYS                          24
+  MATCH_MAPPING                       25
+  MATCH_SEQUENCE                      26
+  NOP                                 27
+  NOT_TAKEN                           28
+  POP_EXCEPT                          29
+  POP_ITER                            30
+  POP_TOP                             31
+  PUSH_EXC_INFO                       32
+  PUSH_NULL                           33
+  RETURN_GENERATOR                    34
+  RETURN_VALUE                        35
+  SETUP_ANNOTATIONS                   36
+  STORE_SLICE                         37
+  STORE_SUBSCR                        38
+  TO_BOOL                             39
+  UNARY_INVERT                        40
+  UNARY_NEGATIVE                      41
+  UNARY_NOT                           42
+  WITH_EXCEPT_START                   43  (arg)
+  BINARY_OP                           44  (arg)
+  BUILD_INTERPOLATION                 45  (arg)
+  BUILD_LIST                          46  (arg)
+  BUILD_MAP                           47  (arg)
+  BUILD_SET                           48  (arg)
+  BUILD_SLICE                         49  (arg)
+  BUILD_STRING                        50  (arg)
+  BUILD_TUPLE                         51  (arg)
+  CALL                                52  (arg)
+  CALL_INTRINSIC_1                    53  (arg)
+  CALL_INTRINSIC_2                    54  (arg)
+  CALL_KW                             55  (arg)
+  COMPARE_OP                          56  (arg)
+  CONTAINS_OP                         57  (arg)
+  CONVERT_VALUE                       58  (arg)
+  COPY                                59  (arg)
+  COPY_FREE_VARS                      60  (arg)
+  DELETE_ATTR                         61  (arg)
+  DELETE_DEREF                        62  (arg)
+  DELETE_FAST                         63  (arg)
+  DELETE_GLOBAL                       64  (arg)
+  DELETE_NAME                         65  (arg)
+  DICT_MERGE                          66  (arg)
+  DICT_UPDATE                         67  (arg)
+  END_ASYNC_FOR                       68  (arg)
+  EXTENDED_ARG                        69  (arg)
+  FOR_ITER                            70  (arg)
+  GET_AWAITABLE                       71  (arg)
+  IMPORT_FROM                         72  (arg)
+  IMPORT_NAME                         73  (arg)
+  IS_OP                               74  (arg)
+  JUMP_BACKWARD                       75  (arg)
+  JUMP_BACKWARD_NO_INTERRUPT          76  (arg)
+  JUMP_FORWARD                        77  (arg)
+  LIST_APPEND                         78  (arg)
+  LIST_EXTEND                         79  (arg)
+  LOAD_ATTR                           80  (arg)
+  LOAD_COMMON_CONSTANT                81  (arg)
+  LOAD_CONST                          82  (arg)
+  LOAD_DEREF                          83  (arg)
+  LOAD_FAST                           84  (arg)
+  LOAD_FAST_AND_CLEAR                 85  (arg)
+  LOAD_FAST_BORROW                    86  (arg)
+  LOAD_FAST_BORROW_LOAD_FAST_BORROW   87  (arg)
+  LOAD_FAST_CHECK                     88  (arg)
+  LOAD_FAST_LOAD_FAST                 89  (arg)
+  LOAD_FROM_DICT_OR_DEREF             90  (arg)
+  LOAD_FROM_DICT_OR_GLOBALS           91  (arg)
+  LOAD_GLOBAL                         92  (arg)
+  LOAD_NAME                           93  (arg)
+  LOAD_SMALL_INT                      94  (arg)
+  LOAD_SPECIAL                        95  (arg)
+  LOAD_SUPER_ATTR                     96  (arg)
+  MAKE_CELL                           97  (arg)
+  MAP_ADD                             98  (arg)
+  MATCH_CLASS                         99  (arg)
+  POP_JUMP_IF_FALSE                   100  (arg)
+  POP_JUMP_IF_NONE                    101  (arg)
+  POP_JUMP_IF_NOT_NONE                102  (arg)
+  POP_JUMP_IF_TRUE                    103  (arg)
+  RAISE_VARARGS                       104  (arg)
+  RERAISE                             105  (arg)
+  SEND                                106  (arg)
+  SET_ADD                             107  (arg)
+  SET_FUNCTION_ATTRIBUTE              108  (arg)
+  SET_UPDATE                          109  (arg)
+  STORE_ATTR                          110  (arg)
+  STORE_DEREF                         111  (arg)
+  STORE_FAST                          112  (arg)
+  STORE_FAST_LOAD_FAST                113  (arg)
+  STORE_FAST_STORE_FAST               114  (arg)
+  STORE_GLOBAL                        115  (arg)
+  STORE_NAME                          116  (arg)
+  SWAP                                117  (arg)
+  UNPACK_EX                           118  (arg)
+  UNPACK_SEQUENCE                     119  (arg)
+  YIELD_VALUE                         120  (arg)
+  RESUME                              128  (arg)
+  INSTRUMENTED_END_FOR                234  (arg)
+  INSTRUMENTED_POP_ITER               235  (arg)
+  INSTRUMENTED_END_SEND               236  (arg)
+  INSTRUMENTED_FOR_ITER               237  (arg)
+  INSTRUMENTED_INSTRUCTION            238  (arg)
+  INSTRUMENTED_JUMP_FORWARD           239  (arg)
+  INSTRUMENTED_NOT_TAKEN              240  (arg)
+  INSTRUMENTED_POP_JUMP_IF_TRUE       241  (arg)
+  INSTRUMENTED_POP_JUMP_IF_FALSE      242  (arg)
+  INSTRUMENTED_POP_JUMP_IF_NONE       243  (arg)
+  INSTRUMENTED_POP_JUMP_IF_NOT_NONE   244  (arg)
+  INSTRUMENTED_RESUME                 245  (arg)
+  INSTRUMENTED_RETURN_VALUE           246  (arg)
+  INSTRUMENTED_YIELD_VALUE            247  (arg)
+  INSTRUMENTED_END_ASYNC_FOR          248  (arg)
+  INSTRUMENTED_LOAD_SUPER_ATTR        249  (arg)
+  INSTRUMENTED_CALL                   250  (arg)
+  INSTRUMENTED_CALL_KW                251  (arg)
+  INSTRUMENTED_CALL_FUNCTION_EX       252  (arg)
+  INSTRUMENTED_JUMP_BACKWARD          253  (arg)
+  INSTRUMENTED_LINE                   254  (arg)
+  ENTER_EXECUTOR                      255  (arg)
+  ANNOTATIONS_PLACEHOLDER             256  (arg)
+  JUMP                                257  (arg)
+  JUMP_IF_FALSE                       258  (arg)
+  JUMP_IF_TRUE                        259  (arg)
+  JUMP_NO_INTERRUPT                   260  (arg)
+  LOAD_CLOSURE                        261  (arg)
+  POP_BLOCK                           262  (arg)
+  SETUP_CLEANUP                       263  (arg)
+  SETUP_FINALLY                       264  (arg)
+  SETUP_WITH                          265  (arg)
+  STORE_FAST_MAYBE_NULL               266  (arg)
+  
